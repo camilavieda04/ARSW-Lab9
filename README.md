@@ -58,10 +58,19 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+  Es un servicio de cómputo sin servidor que le permite ejecutar código activado por eventos sin     tener que aprovisionar o administrar explícitamente la infraestructura.  
 * ¿Qué es serverless?
+   Es un modelo de ejecución de computación en la nube en el que el proveedor de la nube ejecuta el    servidor y administra dinámicamente la asignación de recursos de la máquina. 
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+   Ofrece una nueva forma de aprovechar la simplicidad y flexibilidad del modelo de programación de    Azure Functions en las instalaciones. Se implementa localmente para proporcionar una experiencia    de desarrollo casi idéntica a la del servicio en la nube. 
+   El runtime le proporciona una forma de experimentar Azure Functions antes de comprometerse con      la nube. De esta manera, los activos de código que construye se pueden llevar con usted a la        nube cuando migra. 
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+   Contiene todos sus objetos de datos de Azure Storage: blobs, archivos, colas, tablas y discos.      Proporciona un espacio de nombre único para sus datos de Azure Storage al que se puede acceder      desde cualquier lugar del mundo a través de HTTP o HTTPS. Los datos de la cuenta son duraderos y    altamente disponibles, seguros, escalables de forma masiva. 
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+   - Plan de consumo: Azure proporciona todos los recursos computacionales necesarios. No tiene que      preocuparse por la administración de recursos y solo paga por el tiempo que se ejecuta su          código. 
+   - Plan premium: Especifica una cantidad de instancias precalentadas que siempre están en línea y      listas para responder de inmediato. Cuando se ejecuta su función, Azure proporciona los            recursos computacionales adicionales que se necesitan. Paga por las instancias precalentadas        que se ejecutan continuamnete y cualquier instancia adicional que se use como Azure escala su      aplicación dentro y fuera. 
+   
+
 * ¿Por qué la memoization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
 * Informe
